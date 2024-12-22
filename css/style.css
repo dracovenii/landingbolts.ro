@@ -231,7 +231,7 @@ section.home {
 }
 
 .portfolio .item .action a {
-  display: inline-block;
+  display: inline-block;  
   color: #fff;
   text-decoration: none;
   border: 1px solid #fff;
@@ -386,5 +386,22 @@ section.home {
 
   .services .service {
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  }
+}
+
+/* CALENDAR */
+/* For tablets and smaller laptops */
+@media (max-width: 1024px) {
+  .calendar iframe {
+    max-width: 800px; /* Adjust as needed */
+    height: 700px; /* Adjust as needed */
+  }
+}
+
+/* For mobile phones */
+@media (max-width: 768px) {
+  .calendar iframe {
+    max-width: 100%;
+    height: 400px; /* Adjust as needed */
   }
 }
