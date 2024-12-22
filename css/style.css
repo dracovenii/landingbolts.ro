@@ -390,10 +390,11 @@ section.home {
 }
 
 /* CALENDAR */
+
 /* For tablets and smaller laptops */
 @media (max-width: 1024px) {
   .calendar iframe {
-    max-width: 800px; /* Adjust as needed */
+    max-width: 100%; /* Adjust as needed */
     height: 700px; /* Adjust as needed */
   }
 }
@@ -402,6 +403,6 @@ section.home {
 @media (max-width: 768px) {
   .calendar iframe {
     max-width: 100%;
-    height: 400px; /* Adjust as needed */
+    height: 500px; /* Adjust as needed */
   }
 }
