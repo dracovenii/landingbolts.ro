@@ -155,6 +155,7 @@ section.home {
   position: relative;
   z-index: 10;
   max-width: 600px;
+  text-align: justify;
 }
 
 .home-img {
@@ -405,4 +406,17 @@ section.home {
     max-width: 100%;
     height: 500px; /* Adjust as needed */
   }
+}
+
+/* LOGO */
+
+.logo {
+  position: absolute;
+  top: 30px;
+  left: 50px;
+  /* Remove font-size and font-weight */
+  z-index: 20;
+}
+.logo img {
+  height: 100px; /* Adjust the height as needed */
 }
