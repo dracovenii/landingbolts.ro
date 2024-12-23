@@ -160,8 +160,8 @@ section.home {
 .home-img {
   position: absolute;
   bottom: 0;
-  right: 0;
-  height: 110%;
+  right: 150px;
+  height: 105%;
 }
 
 /* SERVICES PAGE */
